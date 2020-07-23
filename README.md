@@ -12,7 +12,7 @@ sudo pip install virtualenv
 Перейдите в каталог с приложением, затем выполните следующий код
 ```bash
 virtualenv venv
-source myappenv/bin/activate
+source venv/bin/activate
 ```
 #### Установка uWSGI и сторонней библиотеки Webob для формирования запросов и ответов
 ```bash
