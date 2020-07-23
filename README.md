@@ -14,9 +14,10 @@ sudo pip install virtualenv
 virtualenv venv
 source myappenv/bin/activate
 ```
-#### Установка uWSGI
+#### Установка uWSGI и сторонней библиотеки Webob для формирования запросов и ответов
 ```bash
-pip install uwsgi
+pip3 install uwsgi
+pip3 install webob
 ```
 ## Запуск сервера
 ```bash
@@ -42,3 +43,5 @@ def application(environ, start_response):
     return app(environ, start_response)
 ```
 Функция *application* обязательно должна возвращать итератор, для корректной работы сервера.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
