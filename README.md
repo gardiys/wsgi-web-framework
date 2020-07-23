@@ -2,7 +2,7 @@
 Простой WSGI Web-фреймворк на базе uWSGI с использованием nginx.
 
 ## Установка
-> Примечание, uWSGI работает только под дистрибутивами Linux.
+> Примечание: uWSGI работает только под дистрибутивами Linux.
 ```bash
 sudo apt-get update
 sudo apt-get install python-dev python-pip nginx
